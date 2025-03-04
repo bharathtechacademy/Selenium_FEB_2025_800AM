@@ -9,10 +9,11 @@ public class ArrayConcepts {
 		//1 D Array
 		String [] empNames = {"Ashok","Charan","Mahesh"};
 		
-		int [] empIds = new int [3];
+		int [] empIds = new int [4];
 		empIds[0] = 1234;
 		empIds[1] = 1235;
 		empIds[2] = 1236;
+//		empIds[3] = 1237;
 		
 		System.out.println(empNames[0]);
 		System.out.println(empIds[0]);
@@ -43,6 +44,16 @@ public class ArrayConcepts {
 		
 		//get value Mayuri from above array
 		System.out.println(Employees [1][1][0]); 
+		
+		
+		//Challenges with Array
+		
+		// 1. Arrays are fixed in length
+		// 2. Array follows static memory allocation
+		// 3. Arrays won't allow modifications
+		// 4. Array allows only similar data types
+		
+		
 	
 	}
 
