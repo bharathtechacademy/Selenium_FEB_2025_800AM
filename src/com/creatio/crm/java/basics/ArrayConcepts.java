@@ -9,11 +9,11 @@ public class ArrayConcepts {
 		//1 D Array
 		String [] empNames = {"Ashok","Charan","Mahesh"};
 		
-		int [] empIds = new int [4];
+		int [] empIds = new int [3];
 		empIds[0] = 1234;
 		empIds[1] = 1235;
 		empIds[2] = 1236;
-//		empIds[3] = 1237;
+		empIds[3] = 1237;
 		
 		System.out.println(empNames[0]);
 		System.out.println(empIds[0]);

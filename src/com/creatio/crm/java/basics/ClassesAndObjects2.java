@@ -10,8 +10,7 @@ public class ClassesAndObjects2 {
 		
 		System.out.println(obj.name);
 		System.out.println(obj.empId);
-		obj.hobbies[0] ="Dance";
-		
+		obj.hobbies[0] ="Dance";		
 		System.out.println(obj.hobbies[0]);
 	}
 
