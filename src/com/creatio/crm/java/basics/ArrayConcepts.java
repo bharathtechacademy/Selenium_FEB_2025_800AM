@@ -13,7 +13,8 @@ public class ArrayConcepts {
 		empIds[0] = 1234;
 		empIds[1] = 1235;
 		empIds[2] = 1236;
-		empIds[3] = 1237;
+//		empIds[3] = 1237;
+		System.out.println(empIds.length);
 		
 		System.out.println(empNames[0]);
 		System.out.println(empIds[0]);
