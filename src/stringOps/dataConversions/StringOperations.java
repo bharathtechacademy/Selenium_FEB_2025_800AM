@@ -78,6 +78,23 @@ public class StringOperations {
 		
 		// String, StringBuffer, StringBuilder 
 		
+		// String, StringBuffer, StringBuilder can be used to store text values / sequence of chars
+		// String is a immutable class and it is thred-safe by default
+		// StringBuffer is a mutable class and it is thread-safe along with synchronized
+		// StringBuilder is a mutable class but non thread safe
+		
+		String empName = "Nanthini";
+		empName.concat(" Kumari");
+		System.out.println(empName); 		
+		
+		StringBuffer sbf = new StringBuffer("Niraj");
+		sbf.append(" Chavan");
+		System.out.println(sbf);		
+		
+		StringBuilder sbd = new StringBuilder("Niraj");
+		sbd.append(" Chavan");
+		System.out.println(sbd);
+		
 	}
 
 }
