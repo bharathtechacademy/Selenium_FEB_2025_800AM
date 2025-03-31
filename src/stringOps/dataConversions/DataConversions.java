@@ -41,7 +41,7 @@ public class DataConversions {
 		int price= 20;
 		byte newPrice = (byte) price; //narrow casting
 		
-		// 2. Reference Type Casting
+		// 2. Reference Type Casting --> convert one class objects to another
 		
 		
 	}
